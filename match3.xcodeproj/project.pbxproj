@@ -19,6 +19,14 @@
 		2CF8AEE41A286B190005785B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF8AECC1A286B190005785B /* UIKit.framework */; };
 		2CF8AEEC1A286B190005785B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AEEA1A286B190005785B /* InfoPlist.strings */; };
 		2CF8AEEE1A286B190005785B /* match3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8AEED1A286B190005785B /* match3Tests.m */; };
+		2CF8AEFA1A286B6B0005785B /* MYmainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8AEF81A286B6B0005785B /* MYmainViewController.m */; };
+		2CF8AEFB1A286B6B0005785B /* MYmainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AEF91A286B6B0005785B /* MYmainViewController.xib */; };
+		2CF8AEFE1A286D760005785B /* MYgameField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8AEFD1A286D760005785B /* MYgameField.m */; };
+		2CF8AF011A28759A0005785B /* emptyCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF001A28759A0005785B /* emptyCell.png */; };
+		2CF8AF041A2878C10005785B /* MYgameElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8AF031A2878C10005785B /* MYgameElement.m */; };
+		2CF8AF081A2880E00005785B /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF051A2880E00005785B /* 0.png */; };
+		2CF8AF091A2880E00005785B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF061A2880E00005785B /* 1.png */; };
+		2CF8AF0A1A2880E00005785B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF071A2880E00005785B /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,17 @@
 		2CF8AEE91A286B190005785B /* match3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "match3Tests-Info.plist"; sourceTree = "<group>"; };
 		2CF8AEEB1A286B190005785B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CF8AEED1A286B190005785B /* match3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = match3Tests.m; sourceTree = "<group>"; };
+		2CF8AEF71A286B6B0005785B /* MYmainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYmainViewController.h; sourceTree = "<group>"; };
+		2CF8AEF81A286B6B0005785B /* MYmainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYmainViewController.m; sourceTree = "<group>"; };
+		2CF8AEF91A286B6B0005785B /* MYmainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYmainViewController.xib; sourceTree = "<group>"; };
+		2CF8AEFC1A286D760005785B /* MYgameField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYgameField.h; sourceTree = "<group>"; };
+		2CF8AEFD1A286D760005785B /* MYgameField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYgameField.m; sourceTree = "<group>"; };
+		2CF8AF001A28759A0005785B /* emptyCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyCell.png; sourceTree = "<group>"; };
+		2CF8AF021A2878C10005785B /* MYgameElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYgameElement.h; sourceTree = "<group>"; };
+		2CF8AF031A2878C10005785B /* MYgameElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYgameElement.m; sourceTree = "<group>"; };
+		2CF8AF051A2880E00005785B /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		2CF8AF061A2880E00005785B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2CF8AF071A2880E00005785B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +128,13 @@
 			children = (
 				2CF8AED71A286B190005785B /* MYAppDelegate.h */,
 				2CF8AED81A286B190005785B /* MYAppDelegate.m */,
+				2CF8AEF71A286B6B0005785B /* MYmainViewController.h */,
+				2CF8AEF81A286B6B0005785B /* MYmainViewController.m */,
+				2CF8AEF91A286B6B0005785B /* MYmainViewController.xib */,
+				2CF8AEFC1A286D760005785B /* MYgameField.h */,
+				2CF8AEFD1A286D760005785B /* MYgameField.m */,
+				2CF8AF021A2878C10005785B /* MYgameElement.h */,
+				2CF8AF031A2878C10005785B /* MYgameElement.m */,
 				2CF8AEDA1A286B190005785B /* Images.xcassets */,
 				2CF8AECF1A286B190005785B /* Supporting Files */,
 			);
@@ -118,6 +144,10 @@
 		2CF8AECF1A286B190005785B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CF8AF051A2880E00005785B /* 0.png */,
+				2CF8AF061A2880E00005785B /* 1.png */,
+				2CF8AF071A2880E00005785B /* 2.png */,
+				2CF8AF001A28759A0005785B /* emptyCell.png */,
 				2CF8AED01A286B190005785B /* match3-Info.plist */,
 				2CF8AED11A286B190005785B /* InfoPlist.strings */,
 				2CF8AED41A286B190005785B /* main.m */,
@@ -221,7 +251,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF8AED31A286B190005785B /* InfoPlist.strings in Resources */,
+				2CF8AF081A2880E00005785B /* 0.png in Resources */,
+				2CF8AF0A1A2880E00005785B /* 2.png in Resources */,
+				2CF8AEFB1A286B6B0005785B /* MYmainViewController.xib in Resources */,
+				2CF8AF091A2880E00005785B /* 1.png in Resources */,
 				2CF8AEDB1A286B190005785B /* Images.xcassets in Resources */,
+				2CF8AF011A28759A0005785B /* emptyCell.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF8AF041A2878C10005785B /* MYgameElement.m in Sources */,
+				2CF8AEFE1A286D760005785B /* MYgameField.m in Sources */,
+				2CF8AEFA1A286B6B0005785B /* MYmainViewController.m in Sources */,
 				2CF8AED91A286B190005785B /* MYAppDelegate.m in Sources */,
 				2CF8AED51A286B190005785B /* main.m in Sources */,
 			);
@@ -360,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "match3/match3-Prefix.pch";
 				INFOPLIST_FILE = "match3/match3-Info.plist";
@@ -373,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "match3/match3-Prefix.pch";
 				INFOPLIST_FILE = "match3/match3-Info.plist";
