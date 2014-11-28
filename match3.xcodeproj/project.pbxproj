@@ -27,6 +27,8 @@
 		2CF8AF081A2880E00005785B /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF051A2880E00005785B /* 0.png */; };
 		2CF8AF091A2880E00005785B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF061A2880E00005785B /* 1.png */; };
 		2CF8AF0A1A2880E00005785B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF071A2880E00005785B /* 2.png */; };
+		2CF8AF0C1A2887160005785B /* selectedCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF0B1A2887160005785B /* selectedCell.png */; };
+		2CF8AF0F1A288AD30005785B /* MYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8AF0E1A288AD30005785B /* MYConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,9 @@
 		2CF8AF051A2880E00005785B /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		2CF8AF061A2880E00005785B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		2CF8AF071A2880E00005785B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2CF8AF0B1A2887160005785B /* selectedCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedCell.png; sourceTree = "<group>"; };
+		2CF8AF0D1A288AD30005785B /* MYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYConstants.h; sourceTree = "<group>"; };
+		2CF8AF0E1A288AD30005785B /* MYConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,8 @@
 				2CF8AEFD1A286D760005785B /* MYgameField.m */,
 				2CF8AF021A2878C10005785B /* MYgameElement.h */,
 				2CF8AF031A2878C10005785B /* MYgameElement.m */,
+				2CF8AF0D1A288AD30005785B /* MYConstants.h */,
+				2CF8AF0E1A288AD30005785B /* MYConstants.m */,
 				2CF8AEDA1A286B190005785B /* Images.xcassets */,
 				2CF8AECF1A286B190005785B /* Supporting Files */,
 			);
@@ -144,6 +151,7 @@
 		2CF8AECF1A286B190005785B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2CF8AF0B1A2887160005785B /* selectedCell.png */,
 				2CF8AF051A2880E00005785B /* 0.png */,
 				2CF8AF061A2880E00005785B /* 1.png */,
 				2CF8AF071A2880E00005785B /* 2.png */,
@@ -254,6 +262,7 @@
 				2CF8AF081A2880E00005785B /* 0.png in Resources */,
 				2CF8AF0A1A2880E00005785B /* 2.png in Resources */,
 				2CF8AEFB1A286B6B0005785B /* MYmainViewController.xib in Resources */,
+				2CF8AF0C1A2887160005785B /* selectedCell.png in Resources */,
 				2CF8AF091A2880E00005785B /* 1.png in Resources */,
 				2CF8AEDB1A286B190005785B /* Images.xcassets in Resources */,
 				2CF8AF011A28759A0005785B /* emptyCell.png in Resources */,
@@ -280,6 +289,7 @@
 				2CF8AEFA1A286B6B0005785B /* MYmainViewController.m in Sources */,
 				2CF8AED91A286B190005785B /* MYAppDelegate.m in Sources */,
 				2CF8AED51A286B190005785B /* main.m in Sources */,
+				2CF8AF0F1A288AD30005785B /* MYConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MYmainViewController">
             <connections>
+                <outlet property="gameField" destination="VtM-nH-5pd" id="cNV-tU-d3G"/>
                 <outlet property="menuView" destination="oXt-aK-2pt" id="Eej-9E-SKg"/>
                 <outlet property="startPressed" destination="oXt-aK-2pt" id="ec7-H4-Qfo"/>
                 <outlet property="view" destination="1" id="3"/>
@@ -30,10 +31,11 @@
                     </subviews>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view autoresizesSubviews="NO" contentMode="scaleToFill" id="VtM-nH-5pd" customClass="MYgameField">
-                    <rect key="frame" x="0.0" y="110" width="320" height="458"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES"/>
+                <view autoresizesSubviews="NO" contentMode="redraw" id="VtM-nH-5pd" customClass="MYgameField">
+                    <rect key="frame" x="0.0" y="110" width="320" height="320"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

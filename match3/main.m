@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 #import "MYAppDelegate.h"
+#import "MYConstants.h"
+
 
 int main(int argc, char * argv[])
 {

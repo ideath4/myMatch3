@@ -10,7 +10,13 @@
 #import "MYgameElement.h"
 
 @interface MYgameField : UIView{
-    MYgameElement *fieldArray [8][8];
+    MYgameElement *fieldArray [8] [8];
+    CGImageRef emptyImage;
+    CGImageRef selectedImage;
+    int cellSize,lastSelectedRow,lastSelectedColumn;
+    BOOL gameStarted;
+    NSMutableArray *selectedCells;
+    
 }
 
 @end

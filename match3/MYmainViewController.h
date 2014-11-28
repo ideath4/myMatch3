@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MYgameField.h"
 
 @interface MYmainViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *menuView;
+@property (weak, nonatomic) IBOutlet MYgameField *gameField;
 @property (weak, nonatomic) IBOutlet UIButton *startPressed;
 
 @end
