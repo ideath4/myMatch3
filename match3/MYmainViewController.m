@@ -44,11 +44,13 @@
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    UITouch *touch = [touches anyObject];
-    if ([touch view] == self.gameField) {
-        CGPoint pointPressed = [touch locationInView:self.gameField];
-        [self.gameField tappedInPoint:pointPressed];
-        _scoreLabel.text = [NSString stringWithFormat:@"%@",[game getScore]];
+    if (game) {
+        UITouch *touch = [touches anyObject];
+        if ([touch view] == self.gameField) {
+            CGPoint pointPressed = [touch locationInView:self.gameField];
+            [self.gameField tappedInPoint:pointPressed];
+            _scoreLabel.text = [NSString stringWithFormat:@"%@",[game getScore]];
+        }
     }
 }
 @end
