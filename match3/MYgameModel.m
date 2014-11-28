@@ -40,7 +40,9 @@
     [selectedCells addObject:fieldArray[column][row]];
     lastSelectedRow = row;
     lastSelectedColumn = column;
+    if ((![self havePossibleMovesRow:row Column:column])&&([selectedCells count]==2)) [self unselectCells];//если выделено  две клетки и больше нет возможности для хода то снимаев выделение с клеток
     if ((![self havePossibleMovesRow:row Column:column])&&([selectedCells count]>1)) [self removeSelectedCells];//если выделено больше одной клетки и больше нет возможности для хода то убираем выделенные ячейки
+
 }
 
 -(void)unselectCells{
