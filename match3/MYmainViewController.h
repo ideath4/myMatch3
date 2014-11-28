@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "MYgameField.h"
+#import "MYgameModel.h"
 
 @interface MYmainViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *menuView;
-@property (weak, nonatomic) IBOutlet MYgameField *gameField;
+{
+    MYgameModel *game;
+}@property (weak, nonatomic) IBOutlet MYgameField *gameField;
 @property (weak, nonatomic) IBOutlet UIButton *startPressed;
+- (IBAction)startPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 
 @end

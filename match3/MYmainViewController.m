@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -35,4 +36,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)startPressed:(id)sender {
+    game = [[MYgameModel alloc]init];
+    _scoreLabel.text = @"0";
+    [game startGame];
+    [_gameField startNewGame:game];
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    UITouch *touch = [touches anyObject];
+    if ([touch view] == self.gameField) {
+        CGPoint pointPressed = [touch locationInView:self.gameField];
+        [self.gameField tappedInPoint:pointPressed];
+        _scoreLabel.text = [NSString stringWithFormat:@"%@",[game getScore]];
+    }
+}
 @end

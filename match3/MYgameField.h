@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "MYgameElement.h"
+#import "MYgameModel.h"
 
 @interface MYgameField : UIView{
-    MYgameElement *fieldArray [8] [8];
     CGImageRef emptyImage;
     CGImageRef selectedImage;
-    int cellSize,lastSelectedRow,lastSelectedColumn;
+    int cellSize;
     BOOL gameStarted;
-    NSMutableArray *selectedCells;
-    
+    MYgameModel *game;
 }
-
+-(void)startNewGame:(MYgameModel*)newGame;
+-(void)tappedInPoint:(CGPoint)point;
 @end

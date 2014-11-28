@@ -29,6 +29,7 @@
 		2CF8AF0A1A2880E00005785B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF071A2880E00005785B /* 2.png */; };
 		2CF8AF0C1A2887160005785B /* selectedCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8AF0B1A2887160005785B /* selectedCell.png */; };
 		2CF8AF0F1A288AD30005785B /* MYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8AF0E1A288AD30005785B /* MYConstants.m */; };
+		2CF8AF121A28C73B0005785B /* MYgameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8AF111A28C73A0005785B /* MYgameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		2CF8AF0B1A2887160005785B /* selectedCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedCell.png; sourceTree = "<group>"; };
 		2CF8AF0D1A288AD30005785B /* MYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYConstants.h; sourceTree = "<group>"; };
 		2CF8AF0E1A288AD30005785B /* MYConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYConstants.m; sourceTree = "<group>"; };
+		2CF8AF101A28C73A0005785B /* MYgameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYgameModel.h; sourceTree = "<group>"; };
+		2CF8AF111A28C73A0005785B /* MYgameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYgameModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				2CF8AF031A2878C10005785B /* MYgameElement.m */,
 				2CF8AF0D1A288AD30005785B /* MYConstants.h */,
 				2CF8AF0E1A288AD30005785B /* MYConstants.m */,
+				2CF8AF101A28C73A0005785B /* MYgameModel.h */,
+				2CF8AF111A28C73A0005785B /* MYgameModel.m */,
 				2CF8AEDA1A286B190005785B /* Images.xcassets */,
 				2CF8AECF1A286B190005785B /* Supporting Files */,
 			);
@@ -285,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF8AF041A2878C10005785B /* MYgameElement.m in Sources */,
+				2CF8AF121A28C73B0005785B /* MYgameModel.m in Sources */,
 				2CF8AEFE1A286D760005785B /* MYgameField.m in Sources */,
 				2CF8AEFA1A286B6B0005785B /* MYmainViewController.m in Sources */,
 				2CF8AED91A286B190005785B /* MYAppDelegate.m in Sources */,
